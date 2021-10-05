@@ -49,6 +49,12 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     return false;
   });
 
+  $(function(){
+    $('.c-burger__btn').on('click', function() {
+      $(this).toggleClass('active');
+      return false;
+    });
+  });
 
 
 });

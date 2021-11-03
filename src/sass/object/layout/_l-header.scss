@@ -1,0 +1,7 @@
+.l-header {
+  padding: rem(15) $padding-sp rem(14);
+
+  @include mq(tab) {
+    padding: rem(10) rem(40) rem(10);
+  }
+}

@@ -1,5 +1,8 @@
 .c-burger {
 
+  @include mq(tab) {
+    display: none;
+  }
 }
 
 .c-burger__btn {
@@ -31,7 +34,6 @@
 
 .c-burger__btn,
 .c-burger__btn span {
-  display: inline-block;
   transition: all .5s;
   box-sizing: border-box;
 }

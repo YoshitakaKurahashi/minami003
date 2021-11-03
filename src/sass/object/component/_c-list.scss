@@ -1,0 +1,66 @@
+.c-list {
+  display: block;
+}
+
+.c-list:hover {
+  color: $main-color;
+  
+}
+
+.c-list:hover .c-list__img {
+  fill: $main-color;
+}
+
+.c-list:hover .c-list__name:after {
+  bottom: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.c-list__img {
+  display: block;
+  margin: auto;
+  margin-bottom: rem(2);
+  transition: all 0.3s ease;
+}
+
+.c-list__name {
+  display: inline-block;
+  font-size: rem(11);
+  font-weight: bold;
+  padding-bottom: rem(8);
+  position: relative;
+  line-height: (18 / 11);
+  transition: all 0.3s ease;
+}
+
+.c-list__name:after {
+  content: "";
+  position: absolute;
+  bottom: rem(-5);
+  left: 50%;
+  transform: translateX(-50%);
+  width: rem(20);
+  height: rem(2);
+  border-radius: rem(1);
+  opacity: 0;
+  visibility: hidden;
+  background: $main-color;
+  transition: all 0.3s ease;
+}
+
+.c-list__name:after {
+  content: "";
+  position: absolute;
+  bottom: rem(-10);
+  left: 50%;
+  transform: translateX(-50%);
+  width: rem(20);
+  height: rem(2);
+  border-radius: rem(1);
+  opacity: 0;
+  visibility: hidden;
+  background: $main-color;
+  transition: all 0.3s ease;
+}
+

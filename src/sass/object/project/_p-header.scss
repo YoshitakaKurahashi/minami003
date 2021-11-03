@@ -1,14 +1,57 @@
 .p-header {
-
+  display: flex;
+  align-items: center;
 }
 
 .p-header__title {
+  margin-right: auto;
+  max-width: rem(270);
+  width: 100%;
+  line-height: 1;
+}
 
+.p-header__link {
   img {
-
   }
 }
 
-.p-header__burger {
+.p-header__nav {
+  display: none;
+
+  @include mq(tab) {
+    display: block;
+    margin-right: rem(32);
+  }
+}
+
+.p-header-nav__lists {
+  display: flex;
+  align-items: center;
+}
+
+.p-header-nav__list {
   
+}
+
+.p-header-nav__list:not(:last-child) {
+  margin-right: rem(24);
+}
+
+.p-header__info {
+  display: none;
+
+  @include mq(pc) {
+    display: block;
+  }
+}
+
+.p-header__info--address {
+  display: block;
+  font-size: rem(12);
+  text-align: right;
+  font-weight: normal;
+}
+
+.p-header__info--tel {
+  width: rem(260);
 }

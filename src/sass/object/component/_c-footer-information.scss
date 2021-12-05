@@ -1,5 +1,6 @@
 .c-footer-information {
   width: 100%;
+  margin-bottom: rem(20);
 }
 
 .c-footer-information__logo {
@@ -60,12 +61,14 @@
 .c-footer-information__access {
   display: flex;
   align-items: center;
-  padding: 0 rem(10);
+  // padding: 0 rem(10);
   margin-bottom: rem(20);
 }
 
 .c-footer-information__open {
   width: 100%;
+  box-shadow: 0px 3px 6px 0px rgba($color: #000000, $alpha: .5);
+  border-radius: rem(12);
   img {
   }
 }

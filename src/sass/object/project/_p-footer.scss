@@ -1,0 +1,25 @@
+.p-footer {
+}
+
+.p-footer__background {
+}
+
+.p-footer__background--top {
+  background: url(/images/common/footer-bg-top.png) center center / contain;
+  width: 100%;
+  background-repeat: repeat-x;
+  padding-top: rem(32);
+}
+
+.p-footer__background--main {
+  background: #dff1fd;
+  padding: rem(14) rem(10) rem(60);
+}
+
+.p-footer-main {
+  max-width: rem(540);
+  width: 100%;
+  padding: rem(32) rem(10) rem(20);
+  border-radius: rem(8);
+  background: #f6f6f6;
+}
